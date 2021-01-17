@@ -721,17 +721,25 @@ body.nav-open .burger-closed { display: none; }
 
 #hero--title { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 5rem 0; margin: 0; background-image: url("/assets/img/leaf-blur.jpg"); background-size: cover; background-position: center center; }
 
-#site-title { font-size: 2.25em; text-transform: uppercase; margin: 0; color: #fff; background-color: #0756b1; text-align: center; padding: 0.25rem 0.5rem 0.5rem; line-height: 0.9; }
+#site-title { font-size: 2.25em; text-transform: uppercase; margin: 0; color: #fff; background-color: #0756b1; text-align: center; padding: 0.25rem 0.5rem 0.5rem; line-height: 0.9; width: 333px; }
 
-#site-subtitle { font-size: 1em; text-align: center; margin: 0; color: #313436; background-color: #fff; padding-bottom: 0.25rem; max-width: 333px; }
+@media (min-width: 48em) { #site-title { width: 375px; } }
 
-@media (min-width: 48em) { #site-subtitle { max-width: 375px; } }
+@media (min-width: 64em) { #site-title { width: 417px; } }
 
-@media (min-width: 64em) { #site-subtitle { max-width: 417px; } }
+@media (min-width: 80em) { #site-title { width: 458px; } }
 
-@media (min-width: 80em) { #site-subtitle { max-width: 458px; } }
+#site-subtitle { font-size: 1em; text-align: center; margin: 0; color: #313436; background-color: #fff; padding-bottom: 0.25rem; width: 333px; }
+
+@media (min-width: 48em) { #site-subtitle { width: 375px; } }
+
+@media (min-width: 64em) { #site-subtitle { width: 417px; } }
+
+@media (min-width: 80em) { #site-subtitle { width: 458px; } }
 
 #hero--content { background-color: #d95c34; color: #fff; padding: 1em; font-size: 0.9em; }
+
+html[lang="fr"] #hero--content { font-size: 0.8em; }
 
 @media (min-width: 56.25em) { #hero--content p { margin: 0; } }
 
