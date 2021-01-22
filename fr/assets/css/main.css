@@ -613,6 +613,14 @@ input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focu
 
 .btn--twitter:active, .btn--twitter:active { box-shadow: none; -moz-transform: translate(0, 2px); -ms-transform: translate(0, 2px); -o-transform: translate(0, 2px); -webkit-transform: translate(0, 2px); transform: translate(0, 2px); }
 
+.btn--linkedin, .btn--linkedin { background-color: #007bb6; color: #fff; box-shadow: #333 0px 3px 2px -2px; }
+
+.btn--linkedin:visited, .btn--linkedin:visited { background-color: #007bb6; color: #fff; }
+
+.btn--linkedin:hover, .btn--linkedin:hover { background-color: #006292; color: #fff; }
+
+.btn--linkedin:active, .btn--linkedin:active { box-shadow: none; -moz-transform: translate(0, 2px); -ms-transform: translate(0, 2px); -o-transform: translate(0, 2px); -webkit-transform: translate(0, 2px); transform: translate(0, 2px); }
+
 .btn--block { display: block; width: 100%; }
 
 .btn--block + .btn--block { margin-top: 0.25em; }
@@ -858,6 +866,8 @@ html[lang="fr"] #hero--content { font-size: 0.8em; }
 .social-buttons .btn--facebook .fab { color: #718dc8; }
 
 .social-buttons .btn--twitter .fab { color: #147bc9; }
+
+.social-buttons .btn--linkedin .fab { color: #b2d9f7; }
 
 #main-footer { background-color: #d95c34; font-size: 0.75em; color: #fff; padding-top: 0.5em; padding-bottom: 0.5em; text-align: center; }
 
