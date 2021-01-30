@@ -123,13 +123,13 @@ p, pre, blockquote, ul, ol, dl, figure, table, fieldset { orphans: 3; widows: 3;
 abbr[title], abbr[data-original-title] { text-decoration: none; cursor: help; border-bottom: 1px dotted #3d4144; }
 
 /* blockquotes */
-blockquote { margin: 2em 1em 2em 0; padding: 1em; font-style: italic; border-left: 0.25em solid #6f777d; background-color: #f6f6f6; }
+blockquote { margin: 2em 0em 2em 0; padding: 1em; font-style: italic; border-left: 0.25em solid #6f777d; background-color: #f6f6f6; }
 
 blockquote *:first-child { margin-top: 0; }
 
 blockquote *:last-child { margin-bottom: 0; }
 
-blockquote cite { font-style: italic; }
+blockquote cite { font-style: normal; font-size: 0.8em; }
 
 blockquote cite:before { content: "\2014"; padding-right: 5px; }
 
@@ -787,7 +787,7 @@ html[lang="fr"] #hero--content { font-size: 0.8em; }
 
 @media (min-width: 56.25em) { #action-sidebar { display: block; } }
 
-#action-sidebar .inner-sidebar { background-color: #f6f6f6; overflow: auto; position: -webkit-sticky; position: sticky; top: calc(89px + 2rem); padding: 1em 1em 2em; }
+#action-sidebar .inner-sidebar { background-color: #f6f6f6; overflow: auto; position: -webkit-sticky; position: sticky; top: calc(89px + 2rem); padding: 1em 1em 1em; }
 
 #action-sidebar h2 { text-align: center; margin-bottom: 0.75em; margin-top: 0; }
 
@@ -804,6 +804,16 @@ html[lang="fr"] #hero--content { font-size: 0.8em; }
 .quicklinks .quicklink:hover { color: #0756b1; }
 
 .quicklinks .quicklink.focused { color: #0756b1; border-left: 2px solid #0756b1; }
+
+#social { margin: 0.75em 0 0; border-top: 1px solid #bdc1c4; padding: 0.5em 0 0; list-style: none; font-size: 1.5em; display: flex; justify-content: space-around; }
+
+#social li { margin: 0; }
+
+#social .social--facebook { color: #3b5998; }
+
+#social .social--twitter { color: #55acee; }
+
+#social .social--linkedin { color: #007bb6; }
 
 .chartContainer { height: 300px; position: relative; }
 
