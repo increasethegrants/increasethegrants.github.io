@@ -729,21 +729,21 @@ body.nav-open .burger-closed { display: none; }
 
 #hero--title { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 5rem 0; margin: 0; background-image: url("/assets/img/leaf-blur.jpg"); background-size: cover; background-position: center center; }
 
-#site-title { font-size: 2.25em; text-transform: uppercase; margin: 0; color: #fff; background-color: #0756b1; text-align: center; padding: 0.25rem 0.5rem 0.5rem; line-height: 0.9; width: 333px; }
+#site-title { font-size: 2.25em; text-transform: uppercase; margin: 0; color: #fff; background-color: #0756b1; text-align: center; padding: 0.25rem 0.5rem 0.5rem; line-height: 0.9; width: 334px; }
 
-@media (min-width: 48em) { #site-title { width: 375px; } }
+@media (min-width: 48em) { #site-title { width: 376px; } }
 
-@media (min-width: 64em) { #site-title { width: 417px; } }
+@media (min-width: 64em) { #site-title { width: 418px; } }
 
-@media (min-width: 80em) { #site-title { width: 458px; } }
+@media (min-width: 80em) { #site-title { width: 459px; } }
 
-#site-subtitle { font-size: 1em; text-align: center; margin: 0; color: #313436; background-color: #fff; padding-bottom: 0.25rem; width: 333px; }
+#site-subtitle { font-size: 1em; text-align: center; margin: 0; color: #313436; background-color: #fff; padding-bottom: 0.25rem; width: 334px; }
 
-@media (min-width: 48em) { #site-subtitle { width: 375px; } }
+@media (min-width: 48em) { #site-subtitle { width: 376px; } }
 
-@media (min-width: 64em) { #site-subtitle { width: 417px; } }
+@media (min-width: 64em) { #site-subtitle { width: 418px; } }
 
-@media (min-width: 80em) { #site-subtitle { width: 458px; } }
+@media (min-width: 80em) { #site-subtitle { width: 459px; } }
 
 #hero--content { background-color: #d95c34; color: #fff; padding: 1em; font-size: 0.9em; }
 
@@ -882,5 +882,11 @@ html[lang="fr"] #hero--content { font-size: 0.8em; }
 #main-footer { background-color: #d95c34; font-size: 0.75em; color: #fff; padding-top: 0.5em; padding-bottom: 0.5em; text-align: center; }
 
 #page-404 { min-height: calc(100vh - 95px); display: flex; flex-direction: column; justify-content: center; }
+
+#icon-image { background-color: #d95c34; font-size: 150pt; font-weight: bold; width: 512px; height: 512px; margin: 40px; display: flex; align-items: flex-end; padding: 0px; color: #fff; }
+
+#icon-image .up { font-size: 320pt; margin-left: -30px; margin-bottom: -40px; font-family: "Oswald", sans-serif; }
+
+#icon-image .dq { margin-left: -115px; margin-bottom: 75px; }
 
 /*# sourceMappingURL=main.css.map */
